@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+   display: flex;
+   flex: 2;
+   flex-direction: row;
+   align-items: center;
+}
+img{
+    width: 70px;
+    height: 50px;
+}
+.nav-center{
+    display: flex;
+    flex: 4;
+    align-items: center;
+}
+.form-group{
+    display: flex;
+}
+input{
+    width: 400px;
+    height: 6vh;
+    border-radius: 25px 0 0 25px;
+}
+#button{
+    width: 60px;
+    height: 6.5vh;
+    border-radius: 0 25px 25px 0;
+}
+.nav-right{
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+ 
+}
+#img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+section {
+    height: 90vh;
+    flex: 2;
+    display: flex;
+}
+.section-aside{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.aside-top {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+.aside-center {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+.aside-end {
+    display: flex;
+    flex-direction: column;
+}
+i {
+    padding: 15px;
+}
+.main{
+    display: flex;
+    flex:10 ;
+    flex-direction: column;
+    margin: 0;
+
+}
+.main-header {
+    display: flex;
+    flex: 0.1;
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+    margin-left: 10px;
+
+
+}
+button {
+    padding: 5px;
+    width: 70px;
+    height: 6.5vh;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+
+}
+#black {
+    background-color: #030303;
+    color: white;
+}
+.bth{
+    display: flex;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.main-container{
+    flex: 12;
+    margin: 2px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.main-video {
+    display: flex;
+    padding: 10px;
+}
+.main-text {
+    font-size: 20px;
+    display: flex;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid teal;
+    border-radius: 100px;
+}
